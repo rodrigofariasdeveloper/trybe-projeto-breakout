@@ -1,2 +1,23 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+	background-color: hsl(0, 100%, 74%);
+	background-image: url('../images/bg-intro-desktop.png');
+	font-family: 'Poppins', sans-serif;
+}
+
+body,
+button {
+	color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+	#copy {
+		font-size: 16px;
+		margin-top: 100px;
+		text-align: center;
+		font-size: 19px;
+		font-weight: 400;
+	}
+}
